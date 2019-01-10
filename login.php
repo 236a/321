@@ -7,6 +7,7 @@ $str=file_get_contents('php://input');
 $username=json_decode($str)->userName;
 $password=json_decode($str)->passWord;
 
+
 if($username=="123"&& $password=="123")
 {
     $data=array("message"=>"success");
